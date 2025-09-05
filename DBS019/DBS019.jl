@@ -1,4 +1,6 @@
-# Exmaple 1 : SchedulingProblems
+# 打编程系列之 019
+
+
 # versioninfo()
 # 导入建模语言
 using JuMP
@@ -9,6 +11,8 @@ using LinearAlgebra
 
 # 导入（混合整数）线性规划求解： HiGHS GLPK Cbc
 using HiGHS
+
+# 商业求解器
 #using BARON,CPLEX
  
 DBS019 = Model(HiGHS.Optimizer)
